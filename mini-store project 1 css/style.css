@@ -1,0 +1,475 @@
+*{
+
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Lato", serif;
+    
+}
+
+ /* ******nav-bar**** */
+
+.navbar{
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    
+}
+
+.nav1{
+        width: 50%;
+        height: 100px;
+        padding-top: 20px;
+        display: flex;
+        margin-left: 20px;
+      
+
+
+}
+.nav2{
+    width: 50%;
+    height: 100px;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+
+}
+
+a :hover{
+
+    color: #72AEC8;
+}
+
+.ul{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.ul i{
+
+    font-size: 20px;
+    color: #212529;
+    margin-right: 10px;
+}
+
+.pages{
+    border: none;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+.UT I{
+
+    color: rgb(7, 7, 7);
+    font-size: 20PX;
+    
+}
+
+
+    /* ********hiro section****** */
+
+    .bg-grey{
+          background-color:#EDF1F3;
+    }
+ 
+
+.containar{
+
+   max-width: 1320px;
+
+    display: flex;
+    margin: auto;
+    
+    
+}
+.mt{
+    margin-top: 100px;
+}
+
+.shop{
+    display: flex;
+    font-size: 20px;
+    justify-content: end;
+    font-family: "Lato", serif;
+}
+
+.smart1{
+
+    width: 60%;
+    height: 400px;
+    margin: 20px;
+    padding-top: 90px;
+    font-family: "Lato", serif;
+    color: rgb(10, 10, 10);
+    /* margin-top: 100px; */
+    
+
+}
+
+.desc{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Lato", serif;
+    font-weight: 500;
+    transition: all;
+}
+
+
+.desc p,h2,h1{
+    font-family: "Lato", serif;
+    font-weight: 500;
+
+}
+/* .desc{
+    transition: all;
+}
+
+.red :hover{
+    color: #72AEC8;
+} */
+.smart1 button{
+
+    font-size: 15px; 
+    height: 50px;
+    width: 250px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 80px; 
+
+}
+
+.smart2{
+
+    width: 50%;
+    padding: 10px;
+    
+    
+}
+
+
+.smart2 img{
+    width: 100%;
+    align-items: center;
+    text-justify: auto;
+
+} 
+
+ /* ****shoping section *** */
+
+ .container1{
+
+    max-width: 1320px;
+    margin:100px auto;
+    
+}
+  
+
+.products{
+    display: flex;
+}
+
+
+.w-25{
+    width: 25%;
+    padding: 10px;
+}
+.card{
+    
+    position: relative;
+    font-family: "Lato", serif;
+}
+
+i{
+    color: #72AEC8;
+    font-size: 30px;
+
+}
+.desc1 {
+    transition: all;
+}
+.desc p{
+    font-size: 21px;
+}
+
+.desc1:hover h2{
+    color:  #72AEC8;
+
+}
+
+
+.products .price{
+    color: rgb(0, 200, 255);
+}
+
+
+.smart1 h1{
+
+    font-size: 70px;
+   
+}
+
+.btn{
+    width: 75%;
+    display: block;
+    background-color: #212529;
+    padding: 10px 15px;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:75%;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.card:hover .btn{
+    transform: translateX(-50%);
+    top:70%;
+    opacity: 1;
+}
+
+.product-title{
+    font-size: 30px;
+    justify-content: start;
+}
+
+
+
+.w-33{
+    width: 33.33%;
+    padding: 10px;
+    position: relative;
+}
+.card img{
+    width: 100%;
+}
+
+.desc1{
+    /* display: flex; */
+    justify-content: space-between;
+    font-family: "Lato", serif;
+    font-weight: 500;
+    z-index: -1;
+}   
+
+.desc1 P{
+ color: #b5bcc4;
+}
+.desc1 h2{
+    color: #252525;
+ }
+
+   .pera{
+
+    
+    margin: 10px;
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    color: rgb(12, 12, 12);
+    
+
+}
+.pera h2{
+   
+    color: #494a4b;
+    letter-spacing: 1px;
+    
+   
+}
+.cover{
+    display: flex;
+    justify-content: center;
+ 
+}
+.cover i{
+    font-size: 100px;
+    color: #ebebeb;
+    margin-top: 5%;
+   
+}
+.name{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+P{
+    justify-content: center;
+    display: flex;
+}
+.moniter{
+
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+ .container4{ 
+     width: 100%;
+     height: 200px;
+     padding: 56px 12%;
+     margin-top: 40px;
+    background-color: rgb(7, 7, 7);
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.box1{
+
+    width: 50%;
+    color: white;
+    align-content: center;
+  
+
+}
+
+.box2{
+
+    width: 50%;
+    padding: 10px 30px;
+}
+
+.box8 input{
+
+    padding: 10px 20px ;
+}
+
+.btn9{
+       
+        background-color:  #72AEC8;
+        color: white;
+        padding: 10px;
+        font-size: 15px;
+        transition: all;
+    
+}
+.box8:hover .btn9{
+
+   opacity: 1;
+   background-color: #212529;
+   top: 50%;
+   box-shadow: #252525;
+}
+
+
+ .w-20{
+
+    width: 25%;
+    padding: 10px;
+
+ } 
+ 
+ .title{
+
+    font-size: 30px;
+
+    text-align: center;
+    
+
+
+ }
+ .w-20 .btn{
+
+    width: 25%;
+    padding: 10px;
+    color: white;
+    
+
+ } 
+
+ 
+
+ .andpart{
+
+        width: 100%;
+        /* border: 2px solid  black; */
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-evenly;
+        /* background-color: #494a4b; */
+      
+    }
+ .part{
+
+    width: 25%;
+    font-size: 18px;
+    
+    
+    
+ }
+
+ .bont{
+
+    color: rgb(187, 190, 192);
+    }
+
+ .part p{
+
+       font-weight: 300px;
+       line-height: 2;
+        
+        
+ }
+
+ .part i{
+    
+    margin: 10px;
+
+ }
+
+ .bet{
+
+    font-size: 30px;
+ }
+
+ .antu{
+
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+ }
+
+
+.diked{
+
+    width: 100%;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+
+
+
+     
